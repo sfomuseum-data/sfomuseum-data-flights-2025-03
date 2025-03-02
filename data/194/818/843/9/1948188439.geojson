@@ -1,0 +1,72 @@
+{
+  "id": 1948188439,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-03-01",
+    "date:inception_upper": "2025-03-01",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-03-01",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-03-01",
+    "flysfo:estimated_timestamp": 1740860400,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA3880",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-MCI",
+    "flysfo:scheduled_timestamp": 1740859200,
+    "flysfo:timestamp": 1740860400,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-94.716176,39.304107",
+    "geom:latitude": 38.461048500000004,
+    "geom:longitude": -108.5435595,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102533051,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250301-D-UAL-3880",
+    "sfomuseum:flight_number": [
+      "UAL3880",
+      "UA3880"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1740933136,
+    "wof:geomhash": "b03a18c879ef85a5ca01fa93c99f372c",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1948188439,
+        "flight_id": 1948188439
+      }
+    ],
+    "wof:id": 1948188439,
+    "wof:involves": [
+      102533051,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1740933136,
+    "wof:name": "UA3880 (SFO-MCI)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-03",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -94.716176,
+    39.304107
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-94.716176,39.304107]],"type":"MultiPoint"}
+}
