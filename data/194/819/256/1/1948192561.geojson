@@ -2,10 +2,12 @@
   "id": 1948192561,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-02",
+    "date:cessation_upper": "2025-03-02",
     "date:inception_lower": "2025-03-02",
     "date:inception_upper": "2025-03-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-02",
+    "edtf:cessation": "2025-03-02T03:26:36-08:00",
+    "edtf:inception": "2025-03-02T15:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-03-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530009,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N69818",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "93628797",
+      "swim:gufi": "KH45328101"
+    },
     "wof:country": "US",
     "wof:created": 1741018681,
     "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1948192561,
     "wof:involves": [
-      102527513,
-      102530009,
       1159285413,
-      1947304491
+      1947304491,
+      1377564285,
+      102527513,
+      102530009
     ],
-    "wof:lastmodified": 1741018681,
+    "wof:lastmodified": 1741020115,
     "wof:name": "UA300 (MSY-SFO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

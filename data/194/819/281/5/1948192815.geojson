@@ -2,10 +2,12 @@
   "id": 1948192815,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-02",
+    "date:cessation_upper": "2025-03-02",
     "date:inception_lower": "2025-03-02",
     "date:inception_upper": "2025-03-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-02",
+    "edtf:cessation": "2025-03-02T11:06:00-08:00",
+    "edtf:inception": "2025-03-02T15:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-03-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.4570045,
     "geom:longitude": -60.1448105,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102545733,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N218UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "93631598",
+      "swim:gufi": "KU02325200"
+    },
     "wof:country": "US",
     "wof:created": 1741018757,
     "wof:geomhash": "7a64189ee84e1d057c670ad6a60700c7",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1948192815,
     "wof:involves": [
-      102527513,
-      102545733,
       1159285413,
-      1947304149
+      1947304149,
+      1159289985,
+      102527513,
+      102545733
     ],
-    "wof:lastmodified": 1741018757,
+    "wof:lastmodified": 1741020118,
     "wof:name": "UA673 (BCN-SFO)",
     "wof:parent_id": 1947304149,
     "wof:placetype": "custom",

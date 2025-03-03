@@ -2,10 +2,12 @@
   "id": 1948196423,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-03",
+    "date:cessation_upper": "2025-03-03",
     "date:inception_lower": "2025-03-02",
     "date:inception_upper": "2025-03-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-02",
+    "edtf:cessation": "2025-03-03T01:16:00Z",
+    "edtf:inception": "2025-03-02T05:19:17-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.86132599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:base_flight_id": "20250302-D-ANZ-2889",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N895UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "93663290",
+      "swim:gufi": "KO65535100"
+    },
     "wof:country": "US",
     "wof:created": 1741019830,
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1948196423,
     "wof:involves": [
-      102525635,
       102527513,
       1159285413,
       1947304623,
-      1159283697
+      1159283697,
+      1159289407,
+      102525635
     ],
-    "wof:lastmodified": 1741019830,
+    "wof:lastmodified": 1741020145,
     "wof:name": "UA1403 (SFO-DTW)",
     "wof:parent_id": 1947304623,
     "wof:placetype": "custom",
