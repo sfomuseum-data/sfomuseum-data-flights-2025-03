@@ -1,0 +1,72 @@
+{
+  "id": 1948190915,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-03-02",
+    "date:inception_upper": "2025-03-02",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-03-02",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2025-03-02",
+    "flysfo:estimated_timestamp": 1740936480,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "DL420",
+    "flysfo:gate": "",
+    "flysfo:journey": "MTJ-SFO",
+    "flysfo:scheduled_timestamp": 1740934620,
+    "flysfo:timestamp": 1740936480,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-107.897256,38.499431",
+    "geom:latitude": 38.058710500000004,
+    "geom:longitude": -115.13409949999999,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102525091,
+    "sfomuseum:flight_id": "20250302-A-DAL-420",
+    "sfomuseum:flight_number": [
+      "DAL420",
+      "DL420"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1741018185,
+    "wof:geomhash": "5062e6755c22b1691dbf839ab278a364",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1948190915,
+        "flight_id": 1948190915
+      }
+    ],
+    "wof:id": 1948190915,
+    "wof:involves": [
+      102527513,
+      102525091,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1741018185,
+    "wof:name": "DL420 (MTJ-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-03",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -107.897256,
+    38.499431
+  ],
+  "geometry": {"coordinates":[[-107.897256,38.499431],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
