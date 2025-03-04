@@ -2,10 +2,12 @@
   "id": 1948200755,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-03",
+    "date:cessation_upper": "2025-03-03",
     "date:inception_lower": "2025-03-03",
     "date:inception_upper": "2025-03-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-03",
+    "edtf:cessation": "2025-03-03T17:02:00Z",
+    "edtf:inception": "2025-03-03T04:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-03-03",
@@ -21,9 +23,11 @@
     "geom:latitude": -2.936297500000002,
     "geom:longitude": 25.086782500000005,
     "iata:airline": "UA",
+    "icao:aircraft": "B788",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102552387,
@@ -48,6 +52,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "93689948",
+      "swim:gufi": "KO56002200"
+    },
     "wof:country": "US",
     "wof:created": 1741105000,
     "wof:geomhash": "e151466e5466f7dbf4486a1eac82455b",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 1948200755,
     "wof:involves": [
-      102527513,
-      102552387,
       1159285413,
-      1947304151
+      1947304151,
+      1159289995,
+      102527513,
+      102552387
     ],
-    "wof:lastmodified": 1741105000,
+    "wof:lastmodified": 1741106305,
     "wof:name": "UA3027 (CHC-SFO)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

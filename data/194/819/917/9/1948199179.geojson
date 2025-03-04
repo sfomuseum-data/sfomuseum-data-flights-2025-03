@@ -2,10 +2,12 @@
   "id": 1948199179,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-03-03",
-    "date:inception_upper": "2025-03-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-03",
+    "date:cessation_lower": "2025-03-03",
+    "date:cessation_upper": "2025-03-03",
+    "date:inception_lower": "2025-03-04",
+    "date:inception_upper": "2025-03-04",
+    "edtf:cessation": "2025-03-03T09:16:13-08:00",
+    "edtf:inception": "2025-03-04T00:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "icao:base_airline": "ITY",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250303-A-ITY-5814",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N366NW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL83761200"
+    },
     "wof:country": "US",
     "wof:created": 1741104556,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1948199179,
     "wof:involves": [
-      102527513,
-      102533795,
       1159284261,
       1947304675,
-      1763699293
+      1763699293,
+      1159292085,
+      102527513,
+      102533795
     ],
-    "wof:lastmodified": 1741104556,
+    "wof:lastmodified": 1741106311,
     "wof:name": "DL1559 (LAX-SFO)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1948198625,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-03",
+    "date:cessation_upper": "2025-03-03",
     "date:inception_lower": "2025-03-03",
     "date:inception_upper": "2025-03-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-03",
+    "edtf:cessation": "2025-03-03T20:08:07Z",
+    "edtf:inception": "2025-03-03T10:06:14Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "YP",
     "flysfo:date": "2025-03-03",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "93792592"
+    },
     "wof:country": "US",
     "wof:created": 1741104399,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
@@ -88,7 +93,7 @@
       1930448549,
       1947304075
     ],
-    "wof:lastmodified": 1741104399,
+    "wof:lastmodified": 1741106307,
     "wof:name": "YP111 (ICN-SFO)",
     "wof:parent_id": 1947304075,
     "wof:placetype": "custom",
