@@ -2,10 +2,12 @@
   "id": 1948219905,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-03-05",
-    "date:inception_upper": "2025-03-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-05",
+    "date:cessation_lower": "2025-03-06",
+    "date:cessation_upper": "2025-03-06",
+    "date:inception_lower": "2025-03-06",
+    "date:inception_upper": "2025-03-06",
+    "edtf:cessation": "2025-03-06T10:35:00Z",
+    "edtf:inception": "2025-03-06T06:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-03-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N436UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO07947500"
+    },
     "wof:country": "US",
     "wof:created": 1741278820,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1948219905,
     "wof:involves": [
+      1159292085,
       102528817,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1741278820,
+    "wof:lastmodified": 1741279034,
     "wof:name": "UA3891 (SFO-IAD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

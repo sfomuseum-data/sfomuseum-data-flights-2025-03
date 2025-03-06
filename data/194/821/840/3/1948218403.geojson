@@ -2,10 +2,12 @@
   "id": 1948218403,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-06",
+    "date:cessation_upper": "2025-03-06",
     "date:inception_lower": "2025-03-05",
     "date:inception_upper": "2025-03-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-05",
+    "edtf:cessation": "2025-03-06T01:06:00Z",
+    "edtf:inception": "2025-03-05T23:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20250305-D-KAL-3084",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N312DU",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "93918546",
+      "swim:gufi": "KO74462401"
+    },
     "wof:country": "US",
     "wof:created": 1741278405,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1948218403,
     "wof:involves": [
+      1813375783,
       102533269,
       102527513,
       1159284261,
       1947304679,
       1159284625
     ],
-    "wof:lastmodified": 1741278405,
+    "wof:lastmodified": 1741279028,
     "wof:name": "DL673 (SFO-SEA)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",

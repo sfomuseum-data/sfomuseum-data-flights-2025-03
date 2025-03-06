@@ -2,10 +2,12 @@
   "id": 1948215611,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-05",
+    "date:cessation_upper": "2025-03-05",
     "date:inception_lower": "2025-03-05",
     "date:inception_upper": "2025-03-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-05",
+    "edtf:cessation": "2025-03-05T09:56:54-08:00",
+    "edtf:inception": "2025-03-05T21:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-03-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.180931,
     "geom:longitude": -106.3692875,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 1746879059,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N290WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "93916621",
+      "swim:gufi": "KK68103400"
+    },
     "wof:country": "US",
     "wof:created": 1741277631,
     "wof:geomhash": "5aed0915f9f8845326df52b0d348a4b7",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1948215611,
     "wof:involves": [
+      1159289869,
       102527513,
       1746879059,
       1159285591,
       1947304599
     ],
-    "wof:lastmodified": 1741277631,
+    "wof:lastmodified": 1741279039,
     "wof:name": "WN352 (STL-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

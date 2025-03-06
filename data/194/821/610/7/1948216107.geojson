@@ -2,10 +2,12 @@
   "id": 1948216107,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-05",
+    "date:cessation_upper": "2025-03-05",
     "date:inception_lower": "2025-03-05",
     "date:inception_upper": "2025-03-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-05",
+    "edtf:cessation": "2025-03-05T08:21:36-08:00",
+    "edtf:inception": "2025-03-05T23:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-03-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.0998015,
     "geom:longitude": -119.87272250000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530801,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N791UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "93919887",
+      "swim:gufi": "KL65734400"
+    },
     "wof:country": "US",
     "wof:created": 1741277770,
     "wof:geomhash": "099d85224c4d6fa8685f2b490939bec5",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1948216107,
     "wof:involves": [
-      102527513,
       102530801,
       1159285413,
-      -1
+      1159289985,
+      102527513
     ],
-    "wof:lastmodified": 1741277770,
+    "wof:lastmodified": 1741279019,
     "wof:name": "UA3863 (VCV-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
