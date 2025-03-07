@@ -2,10 +2,12 @@
   "id": 1948224349,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-06",
+    "date:cessation_upper": "2025-03-06",
     "date:inception_lower": "2025-03-06",
     "date:inception_upper": "2025-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-06",
+    "edtf:cessation": "2025-03-06T10:31:12-08:00",
+    "edtf:inception": "2025-03-06T15:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.4570045,
     "geom:longitude": -60.1448105,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102545733,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N76010",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "93967675"
+    },
     "wof:country": "US",
     "wof:created": 1741364372,
     "wof:geomhash": "7a64189ee84e1d057c670ad6a60700c7",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1948224349,
     "wof:involves": [
+      1947304151,
+      1159289985,
       102527513,
       102545733,
-      1159285413,
-      1947304151
+      1159285413
     ],
-    "wof:lastmodified": 1741364372,
+    "wof:lastmodified": 1741365738,
     "wof:name": "UA673 (BCN-SFO)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

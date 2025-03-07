@@ -2,10 +2,12 @@
   "id": 1948226021,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-06",
+    "date:cessation_upper": "2025-03-06",
     "date:inception_lower": "2025-03-06",
     "date:inception_upper": "2025-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-06",
+    "edtf:cessation": "2025-03-06T18:23:00Z",
+    "edtf:inception": "2025-03-06T15:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536481,
     "sfomuseum:base_flight_id": "20250306-D-HAL-6822",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N977AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "93967486",
+      "swim:gufi": "KO50215500"
+    },
     "wof:country": "US",
     "wof:created": 1741364858,
     "wof:geomhash": "ae49e61cad725fa4577f8355bb7297ad",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1948226021,
     "wof:involves": [
+      1159284489,
+      1528104577,
       102536481,
       102527513,
       1159283813,
-      1947304273,
-      1159284489
+      1947304273
     ],
-    "wof:lastmodified": 1741364858,
+    "wof:lastmodified": 1741365759,
     "wof:name": "AS1344 (SFO-PVR)",
     "wof:parent_id": 1947304273,
     "wof:placetype": "custom",
