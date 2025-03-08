@@ -1,0 +1,72 @@
+{
+  "id": 1948231009,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-03-07",
+    "date:inception_upper": "2025-03-07",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-03-07",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2025-03-07",
+    "flysfo:estimated_timestamp": 1741387260,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "DL8926",
+    "flysfo:gate": "",
+    "flysfo:journey": "EWR-SFO",
+    "flysfo:scheduled_timestamp": 1741386060,
+    "flysfo:timestamp": 1741387260,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-74.177526,40.691243",
+    "geom:latitude": 39.1546165,
+    "geom:longitude": -98.2742345,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102530049,
+    "sfomuseum:flight_id": "20250307-A-DAL-8926",
+    "sfomuseum:flight_number": [
+      "DAL8926",
+      "DL8926"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1741450450,
+    "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1948231009,
+        "flight_id": 1948231009
+      }
+    ],
+    "wof:id": 1948231009,
+    "wof:involves": [
+      102527513,
+      102530049,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1741450450,
+    "wof:name": "DL8926 (EWR-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-03",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -74.177526,
+    40.691243
+  ],
+  "geometry": {"coordinates":[[-74.177526,40.691243],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
