@@ -2,10 +2,12 @@
   "id": 1948232577,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-07",
+    "date:cessation_upper": "2025-03-07",
     "date:inception_lower": "2025-03-07",
     "date:inception_upper": "2025-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-07",
+    "edtf:cessation": "2025-03-07T06:39:26-08:00",
+    "edtf:inception": "2025-03-07T21:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-03-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.0998015,
     "geom:longitude": -119.87272250000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530801,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2135U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94109370",
+      "swim:gufi": "KL63330600"
+    },
     "wof:country": "US",
     "wof:created": 1741451063,
     "wof:geomhash": "099d85224c4d6fa8685f2b490939bec5",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1948232577,
     "wof:involves": [
+      1159289993,
       102527513,
       102530801,
       1159285413,
       1947304145
     ],
-    "wof:lastmodified": 1741451063,
+    "wof:lastmodified": 1741452980,
     "wof:name": "UA3881 (VCV-SFO)",
     "wof:parent_id": 1947304145,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1948235025,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-08",
+    "date:cessation_upper": "2025-03-08",
     "date:inception_lower": "2025-03-07",
     "date:inception_upper": "2025-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-07",
+    "edtf:cessation": "2025-03-08T00:46:49Z",
+    "edtf:inception": "2025-03-07T07:58:06-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20250307-D-KAL-7259",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N339NW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO82981600"
+    },
     "wof:country": "US",
     "wof:created": 1741452031,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1948235025,
     "wof:involves": [
+      1159284625,
+      1159292085,
       102533795,
       102527513,
       1159284261,
-      1947304681,
-      1159284625
+      1947304681
     ],
-    "wof:lastmodified": 1741452031,
+    "wof:lastmodified": 1741452988,
     "wof:name": "DL2267 (SFO-LAX)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",

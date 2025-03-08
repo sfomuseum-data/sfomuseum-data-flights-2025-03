@@ -2,10 +2,12 @@
   "id": 1948236623,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-07",
+    "date:cessation_upper": "2025-03-07",
     "date:inception_lower": "2025-03-07",
     "date:inception_upper": "2025-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-07",
+    "edtf:cessation": "2025-03-07T21:55:56Z",
+    "edtf:inception": "2025-03-07T20:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:base_flight_id": "20250307-D-ANZ-9373",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N39423",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94078290",
+      "swim:gufi": "KO64286600"
+    },
     "wof:country": "US",
     "wof:created": 1741452658,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1948236623,
     "wof:involves": [
-      102526751,
-      102527513,
       1159285413,
       1763588337,
-      1159283697
+      1159283697,
+      1377564285,
+      102526751,
+      102527513
     ],
-    "wof:lastmodified": 1741452658,
+    "wof:lastmodified": 1741452993,
     "wof:name": "UA246 (SFO-PHX)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",
