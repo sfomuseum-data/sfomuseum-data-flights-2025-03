@@ -1,0 +1,72 @@
+{
+  "id": 1948242831,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-03-08",
+    "date:inception_upper": "2025-03-08",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-03-08",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2025-03-08",
+    "flysfo:estimated_timestamp": 1741497300,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL8925",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-PDX",
+    "flysfo:scheduled_timestamp": 1741497300,
+    "flysfo:timestamp": 1741497300,
+    "geom:area": 0,
+    "geom:bbox": "-122.597389,37.617990,-122.370943,45.586144",
+    "geom:latitude": 41.602067,
+    "geom:longitude": -122.484166,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102532251,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250308-D-DAL-8925",
+    "sfomuseum:flight_number": [
+      "DAL8925",
+      "DL8925"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1741537787,
+    "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1948242831,
+        "flight_id": 1948242831
+      }
+    ],
+    "wof:id": 1948242831,
+    "wof:involves": [
+      102532251,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1741537787,
+    "wof:name": "DL8925 (SFO-PDX)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-03",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.597389,
+    37.61799,
+    -122.370943,
+    45.586144
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-122.597389,45.586144]],"type":"MultiPoint"}
+}

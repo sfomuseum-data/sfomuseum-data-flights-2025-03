@@ -1,0 +1,72 @@
+{
+  "id": 1948239979,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-03-08",
+    "date:inception_upper": "2025-03-08",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-03-08",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "SY",
+    "flysfo:date": "2025-03-08",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "SY8698",
+    "flysfo:gate": "",
+    "flysfo:journey": "RNO-SFO",
+    "flysfo:scheduled_timestamp": 1741473300,
+    "flysfo:timestamp": 1741473300,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-119.772167,39.505219",
+    "geom:latitude": 38.5616045,
+    "geom:longitude": -121.07155499999999,
+    "iata:airline": "SY",
+    "icao:airline": "SCX",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285227,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102525535,
+    "sfomuseum:flight_id": "20250308-A-SCX-8698",
+    "sfomuseum:flight_number": [
+      "SCX8698",
+      "SY8698"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1741536918,
+    "wof:geomhash": "a4d4dc469296ca0f5ad383dc766835b1",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1948239979,
+        "flight_id": 1948239979
+      }
+    ],
+    "wof:id": 1948239979,
+    "wof:involves": [
+      102527513,
+      102525535,
+      1159285227,
+      -1
+    ],
+    "wof:lastmodified": 1741536918,
+    "wof:name": "SY8698 (RNO-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-03",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -119.772167,
+    39.505219
+  ],
+  "geometry": {"coordinates":[[-119.772167,39.505219],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
