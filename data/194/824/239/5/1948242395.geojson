@@ -2,10 +2,12 @@
   "id": 1948242395,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-09",
+    "date:cessation_upper": "2025-03-09",
     "date:inception_lower": "2025-03-08",
     "date:inception_upper": "2025-03-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-08",
+    "edtf:cessation": "2025-03-09T01:12:19Z",
+    "edtf:inception": "2025-03-08T20:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -139.40440999999998,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532929,
     "sfomuseum:base_flight_id": "20250308-D-FJI-5800",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N912AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94180054",
+      "swim:gufi": "KO68593700"
+    },
     "wof:country": "US",
     "wof:created": 1741537655,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1948242395,
     "wof:involves": [
-      102532929,
-      102527513,
       1159283813,
       1947304285,
-      1159283717
+      1159283717,
+      1528104577,
+      102532929,
+      102527513
     ],
-    "wof:lastmodified": 1741537655,
+    "wof:lastmodified": 1741538456,
     "wof:name": "AS878 (SFO-OGG)",
     "wof:parent_id": 1947304285,
     "wof:placetype": "custom",

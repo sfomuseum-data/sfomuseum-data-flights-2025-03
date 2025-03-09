@@ -2,10 +2,12 @@
   "id": 1948240301,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-08",
+    "date:cessation_upper": "2025-03-08",
     "date:inception_lower": "2025-03-08",
     "date:inception_upper": "2025-03-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-08",
+    "edtf:cessation": "2025-03-08T19:52:00Z",
+    "edtf:inception": "2025-03-08T18:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250308-A-UAE-6182",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N77578",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94172166",
+      "swim:gufi": "KL56771700"
+    },
     "wof:country": "US",
     "wof:created": 1741537015,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +105,10 @@
       102533795,
       1159285413,
       1947304517,
-      1159284333
+      1159284333,
+      1528104577
     ],
-    "wof:lastmodified": 1741537015,
+    "wof:lastmodified": 1741538434,
     "wof:name": "UA1314 (LAX-SFO)",
     "wof:parent_id": 1947304517,
     "wof:placetype": "custom",

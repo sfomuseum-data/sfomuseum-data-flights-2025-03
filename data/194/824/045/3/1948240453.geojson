@@ -2,10 +2,12 @@
   "id": 1948240453,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-08",
+    "date:cessation_upper": "2025-03-08",
     "date:inception_lower": "2025-03-08",
     "date:inception_upper": "2025-03-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-08",
+    "edtf:cessation": "2025-03-08T09:01:22-08:00",
+    "edtf:inception": "2025-03-08T23:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250308-A-ACA-4108",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N842UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94200222",
+      "swim:gufi": "KL74208700"
+    },
     "wof:country": "US",
     "wof:created": 1741537060,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -92,9 +105,10 @@
       102533591,
       1159285413,
       1947304607,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1741537060,
+    "wof:lastmodified": 1741538436,
     "wof:name": "UA2304 (PSP-SFO)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",

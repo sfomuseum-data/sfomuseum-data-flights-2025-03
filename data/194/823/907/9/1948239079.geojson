@@ -2,10 +2,12 @@
   "id": 1948239079,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-03-08",
-    "date:inception_upper": "2025-03-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-08",
+    "date:cessation_lower": "2025-03-08",
+    "date:cessation_upper": "2025-03-08",
+    "date:inception_lower": "2025-03-09",
+    "date:inception_upper": "2025-03-09",
+    "edtf:cessation": "2025-03-08T11:21:22-08:00",
+    "edtf:inception": "2025-03-09T02:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250308-A-AMX-3713",
@@ -39,7 +43,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N391DA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KL05640100"
+    },
     "wof:country": "US",
     "wof:created": 1741536644,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -51,13 +63,13 @@
     ],
     "wof:id": 1948239079,
     "wof:involves": [
+      1159283539,
+      1159289871,
       102527513,
       102533795,
-      1159284261,
-      -1,
-      1159283539
+      1159284261
     ],
-    "wof:lastmodified": 1741536644,
+    "wof:lastmodified": 1741538447,
     "wof:name": "DL2054 (LAX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

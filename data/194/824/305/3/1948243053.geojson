@@ -2,10 +2,12 @@
   "id": 1948243053,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-08",
+    "date:cessation_upper": "2025-03-08",
     "date:inception_lower": "2025-03-08",
     "date:inception_upper": "2025-03-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-08",
+    "edtf:cessation": "2025-03-08T06:21:00Z",
+    "edtf:inception": "2025-03-08T04:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2025-03-08",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "94121379"
+    },
     "wof:country": "US",
     "wof:created": 1741537858,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -51,7 +56,7 @@
       1159284401,
       -1
     ],
-    "wof:lastmodified": 1741537858,
+    "wof:lastmodified": 1741538459,
     "wof:name": "F93440 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
