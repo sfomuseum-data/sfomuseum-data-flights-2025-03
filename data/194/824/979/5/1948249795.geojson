@@ -2,10 +2,12 @@
   "id": 1948249795,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2025-03-09",
     "date:inception_upper": "2025-03-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-09",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2025-03-09T07:29:21-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AM",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "AMX",
     "icao:base_airline": "DAL",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:base_flight_id": "20250309-D-DAL-7965",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N866AM",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -88,13 +97,14 @@
     ],
     "wof:id": 1948249795,
     "wof:involves": [
-      102536579,
-      102527513,
       1159283539,
       1947304087,
-      1159284261
+      1159284261,
+      1528104577,
+      102536579,
+      102527513
     ],
-    "wof:lastmodified": 1741624082,
+    "wof:lastmodified": 1741625262,
     "wof:name": "AM669 (SFO-MEX)",
     "wof:parent_id": 1947304087,
     "wof:placetype": "custom",

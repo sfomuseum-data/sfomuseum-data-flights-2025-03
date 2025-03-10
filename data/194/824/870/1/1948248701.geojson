@@ -2,10 +2,12 @@
   "id": 1948248701,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-09",
+    "date:cessation_upper": "2025-03-09",
     "date:inception_lower": "2025-03-09",
     "date:inception_upper": "2025-03-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-09",
+    "edtf:cessation": "2025-03-09T16:57:39Z",
+    "edtf:inception": "2025-03-09T08:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94217883"
+    },
     "wof:country": "US",
     "wof:created": 1741623723,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -94,7 +99,7 @@
       1947304149,
       1159283875
     ],
-    "wof:lastmodified": 1741623723,
+    "wof:lastmodified": 1741625258,
     "wof:name": "UA838 (NRT-SFO)",
     "wof:parent_id": 1947304149,
     "wof:placetype": "custom",

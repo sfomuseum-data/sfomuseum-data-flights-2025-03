@@ -2,10 +2,12 @@
   "id": 1948246221,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-09",
+    "date:cessation_upper": "2025-03-09",
     "date:inception_lower": "2025-03-09",
     "date:inception_upper": "2025-03-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-09",
+    "edtf:cessation": "2025-03-09T14:47:05-07:00",
+    "edtf:inception": "2025-03-09T23:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250309-A-AAL-7650",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N941AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94199633",
+      "swim:gufi": "KN77234100"
+    },
     "wof:country": "US",
     "wof:created": 1741622892,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -92,9 +106,10 @@
       102530049,
       1159283813,
       1947304293,
-      1159283849
+      1159283849,
+      1528104577
     ],
-    "wof:lastmodified": 1741622892,
+    "wof:lastmodified": 1741625236,
     "wof:name": "AS279 (EWR-SFO)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",
