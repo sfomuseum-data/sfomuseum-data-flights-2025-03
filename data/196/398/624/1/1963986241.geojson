@@ -2,10 +2,12 @@
   "id": 1963986241,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-11",
+    "date:cessation_upper": "2025-03-11",
     "date:inception_lower": "2025-03-10",
     "date:inception_upper": "2025-03-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-10",
+    "edtf:cessation": "2025-03-11T07:57:09Z",
+    "edtf:inception": "2025-03-10T20:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "OZ",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 2.1453445,
     "iata:airline": "OZ",
     "iata:base_airline": "",
+    "icao:aircraft": "A359",
     "icao:airline": "AAR",
     "icao:base_airline": "THA",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159283917,
     "sfomuseum:arrival_id": 102556451,
     "sfomuseum:base_flight_id": "20250310-D-THA-6703",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "HL8521",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94350934"
+    },
     "wof:country": "US",
     "wof:created": 1741710303,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1963986241,
     "wof:involves": [
+      1377564293,
       102556451,
       102527513,
       1159283917,
       1947304149,
       1159285639
     ],
-    "wof:lastmodified": 1741710303,
+    "wof:lastmodified": 1741711551,
     "wof:name": "OZ215 (SFO-ICN)",
     "wof:parent_id": 1947304149,
     "wof:placetype": "custom",
