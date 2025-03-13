@@ -2,10 +2,12 @@
   "id": 1964003483,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-12",
+    "date:cessation_upper": "2025-03-12",
     "date:inception_lower": "2025-03-12",
     "date:inception_upper": "2025-03-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-12",
+    "edtf:cessation": "2025-03-12T20:04:30Z",
+    "edtf:inception": "2025-03-12T01:58:25-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.70629299999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 1746879047,
     "sfomuseum:base_flight_id": "20250312-D-FJI-5804",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N596AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94506272"
+    },
     "wof:country": "US",
     "wof:created": 1741883192,
     "wof:geomhash": "df4d5906f2523703f9da91c779be1785",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1964003483,
     "wof:involves": [
+      1947304303,
+      1159283717,
+      1159289871,
       1746879047,
       102527513,
-      1159283813,
-      1947304303,
-      1159283717
+      1159283813
     ],
-    "wof:lastmodified": 1741883192,
+    "wof:lastmodified": 1741884008,
     "wof:name": "AS8 (SFO-DCA)",
     "wof:parent_id": 1947304303,
     "wof:placetype": "custom",
