@@ -1,0 +1,72 @@
+{
+  "id": 1964040905,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-03-17",
+    "date:inception_upper": "2025-03-17",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-03-17",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2025-03-17",
+    "flysfo:estimated_timestamp": 1742245440,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AS9203",
+    "flysfo:gate": "",
+    "flysfo:journey": "PVR-SFO",
+    "flysfo:scheduled_timestamp": 1742244660,
+    "flysfo:timestamp": 1742245440,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,20.660734,-105.250456,37.617990",
+    "geom:latitude": 29.139362,
+    "geom:longitude": -113.8106995,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102536481,
+    "sfomuseum:flight_id": "20250317-A-ASA-9203",
+    "sfomuseum:flight_number": [
+      "ASA9203",
+      "AS9203"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1742314092,
+    "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964040905,
+        "flight_id": 1964040905
+      }
+    ],
+    "wof:id": 1964040905,
+    "wof:involves": [
+      102527513,
+      102536481,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1742314092,
+    "wof:name": "AS9203 (PVR-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-03",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    20.660734,
+    -105.250456,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-105.250456,20.660734],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
