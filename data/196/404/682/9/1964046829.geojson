@@ -2,10 +2,12 @@
   "id": 1964046829,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2025-03-17",
     "date:inception_upper": "2025-03-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-17",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2025-03-17T10:40:26-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:base_flight_id": "20250317-D-DLH-7990",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N69830",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1964046829,
     "wof:involves": [
-      102527209,
       102527513,
       1159285413,
       1947304603,
-      1159286015
+      1159286015,
+      1377564285,
+      102527209
     ],
-    "wof:lastmodified": 1742315505,
+    "wof:lastmodified": 1742315755,
     "wof:name": "UA1786 (SFO-LAS)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",
