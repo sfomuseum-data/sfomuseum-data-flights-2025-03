@@ -1,0 +1,33 @@
+{
+  "id": 1964053409,
+  "type": "Feature",
+  "properties": {
+    "geom:area": 0,
+    "geom:bbox": "-121.499430,38.025640,-121.248680,38.123370",
+    "geom:latitude": 38.07450804648822,
+    "geom:longitude": -121.3740561873844,
+    "src:alt_label": "swim-takeoff",
+    "src:geom": "swim",
+    "swim:elevations": [
+      6551,
+      7020,
+      7476
+    ],
+    "swim:geom": "takeoff",
+    "swim:timestamps": [
+      1742317095,
+      1742317143,
+      1742317198
+    ],
+    "wof:geomhash": "a508f8242f83d8f91241d16cd8952270",
+    "wof:id": 1964053409,
+    "wof:repo": "sfomuseum-data-flights-2025-03"
+  },
+  "bbox": [
+    -121.49943,
+    38.02564,
+    -121.24868,
+    38.12337
+  ],
+  "geometry": {"coordinates":[[-121.49943,38.02564],[-121.38381,38.07071],[-121.24868,38.12337]],"type":"LineString"}
+}
