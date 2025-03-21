@@ -2,10 +2,12 @@
   "id": 1964065747,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-20",
+    "date:cessation_upper": "2025-03-20",
     "date:inception_lower": "2025-03-20",
     "date:inception_upper": "2025-03-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-20",
+    "edtf:cessation": "2025-03-20T09:37:00Z",
+    "edtf:inception": "2025-03-20T09:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-03-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.1517615,
     "geom:longitude": -121.98042749999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530559,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N650DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "95198944",
+      "swim:gufi": "KO27361500"
+    },
     "wof:country": "US",
     "wof:created": 1742573412,
     "wof:geomhash": "f5805f1be1c56ce2a2965880e252c65f",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1964065747,
     "wof:involves": [
-      102527513,
       102530559,
       1159284261,
-      -1
+      1159289939,
+      102527513
     ],
-    "wof:lastmodified": 1742573412,
+    "wof:lastmodified": 1742575102,
     "wof:name": "DL8839 (SMF-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
