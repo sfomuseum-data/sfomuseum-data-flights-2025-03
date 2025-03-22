@@ -2,10 +2,12 @@
   "id": 1964078047,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-03-21",
-    "date:inception_upper": "2025-03-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-21",
+    "date:cessation_lower": "2025-03-22",
+    "date:cessation_upper": "2025-03-22",
+    "date:inception_lower": "2025-03-22",
+    "date:inception_upper": "2025-03-22",
+    "edtf:cessation": "2025-03-22T01:13:00Z",
+    "edtf:inception": "2025-03-22T00:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:base_flight_id": "20250321-D-AAL-9415",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N966AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO82211600"
+    },
     "wof:country": "US",
     "wof:created": 1742660690,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964078047,
     "wof:involves": [
+      1528104577,
       102527209,
       102527513,
       1159283813,
       1947304263,
       1159283849
     ],
-    "wof:lastmodified": 1742660690,
+    "wof:lastmodified": 1742661435,
     "wof:name": "AS655 (SFO-LAS)",
     "wof:parent_id": 1947304263,
     "wof:placetype": "custom",

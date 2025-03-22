@@ -2,10 +2,12 @@
   "id": 1964080183,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-21",
+    "date:cessation_upper": "2025-03-21",
     "date:inception_lower": "2025-03-21",
     "date:inception_upper": "2025-03-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-21",
+    "edtf:cessation": "2025-03-21T22:59:00Z",
+    "edtf:inception": "2025-03-21T05:59:23-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-03-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N78002",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95348556",
+      "swim:gufi": "KO62499601"
+    },
     "wof:country": "US",
     "wof:created": 1742661213,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1964080183,
     "wof:involves": [
+      1159289985,
       102534097,
       102527513,
       1159285413,
       1947304531
     ],
-    "wof:lastmodified": 1742661213,
+    "wof:lastmodified": 1742661416,
     "wof:name": "UA3924 (SFO-IAH)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",

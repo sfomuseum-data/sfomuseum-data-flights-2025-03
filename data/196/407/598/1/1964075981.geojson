@@ -2,10 +2,12 @@
   "id": 1964075981,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-21",
+    "date:cessation_upper": "2025-03-21",
     "date:inception_lower": "2025-03-21",
     "date:inception_upper": "2025-03-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-21",
+    "edtf:cessation": "2025-03-21T07:44:00Z",
+    "edtf:inception": "2025-03-21T02:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-03-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555091,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "95327593"
+    },
     "wof:country": "US",
     "wof:created": 1742660186,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -46,12 +53,12 @@
     ],
     "wof:id": 1964075981,
     "wof:involves": [
-      102527513,
-      102555091,
       1159285413,
-      -1
+      1159289871,
+      102527513,
+      102555091
     ],
-    "wof:lastmodified": 1742660186,
+    "wof:lastmodified": 1742661446,
     "wof:name": "UA3881 (YYZ-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

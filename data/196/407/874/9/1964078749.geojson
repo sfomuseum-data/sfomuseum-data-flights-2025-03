@@ -2,10 +2,12 @@
   "id": 1964078749,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-21",
+    "date:cessation_upper": "2025-03-21",
     "date:inception_lower": "2025-03-21",
     "date:inception_upper": "2025-03-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-21",
+    "edtf:cessation": "2025-03-21T20:03:00Z",
+    "edtf:inception": "2025-03-21T18:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2025-03-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "F9",
+    "icao:aircraft": "A321",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N711FR",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "95340994",
+      "swim:gufi": "KO61958600"
+    },
     "wof:country": "US",
     "wof:created": 1742660861,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -46,12 +59,13 @@
     ],
     "wof:id": 1964078749,
     "wof:involves": [
+      1159289411,
       102526751,
       102527513,
       1159284401,
       1947304091
     ],
-    "wof:lastmodified": 1742660861,
+    "wof:lastmodified": 1742661437,
     "wof:name": "F92638 (SFO-PHX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

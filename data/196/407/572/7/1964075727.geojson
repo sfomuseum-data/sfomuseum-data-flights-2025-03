@@ -2,10 +2,12 @@
   "id": 1964075727,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-03-21",
-    "date:inception_upper": "2025-03-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-21",
+    "date:cessation_lower": "2025-03-21",
+    "date:cessation_upper": "2025-03-21",
+    "date:inception_lower": "2025-03-22",
+    "date:inception_upper": "2025-03-22",
+    "edtf:cessation": "2025-03-21T14:25:01-07:00",
+    "edtf:inception": "2025-03-22T00:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250321-A-ANZ-9093",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N436UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KF73494600"
+    },
     "wof:country": "US",
     "wof:created": 1742660123,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964075727,
     "wof:involves": [
+      1159292085,
       102527513,
       102528541,
       1159285413,
       1947304609,
       1159283697
     ],
-    "wof:lastmodified": 1742660123,
+    "wof:lastmodified": 1742661427,
     "wof:name": "UA1396 (DFW-SFO)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",
