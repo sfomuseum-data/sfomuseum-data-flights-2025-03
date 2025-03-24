@@ -2,10 +2,12 @@
   "id": 1964094881,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-24",
+    "date:cessation_upper": "2025-03-24",
     "date:inception_lower": "2025-03-23",
     "date:inception_upper": "2025-03-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-23",
+    "edtf:cessation": "2025-03-24T05:40:00Z",
+    "edtf:inception": "2025-03-23T13:34:19-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2025-03-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "F9",
+    "icao:aircraft": "A20N",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1377564295,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N381FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO07819200"
+    },
     "wof:country": "US",
     "wof:created": 1742833709,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -86,9 +99,10 @@
       102531189,
       102527513,
       1159284401,
-      1947304095
+      1947304095,
+      1377564295
     ],
-    "wof:lastmodified": 1742833709,
+    "wof:lastmodified": 1742834352,
     "wof:name": "F93440 (SFO-DEN)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",

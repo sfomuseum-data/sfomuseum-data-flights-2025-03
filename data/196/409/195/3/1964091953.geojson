@@ -2,10 +2,12 @@
   "id": 1964091953,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-23",
+    "date:cessation_upper": "2025-03-23",
     "date:inception_lower": "2025-03-23",
     "date:inception_upper": "2025-03-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-23",
+    "edtf:cessation": "2025-03-23T23:57:51Z",
+    "edtf:inception": "2025-03-23T20:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.5435595,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250323-A-ANZ-9502",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N815UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95543209",
+      "swim:gufi": "KK64416100"
+    },
     "wof:country": "US",
     "wof:created": 1742832975,
     "wof:geomhash": "35ddb46351d590846e83b74bc4468cc8",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964091953,
     "wof:involves": [
-      102527513,
       102533051,
       1159285413,
       1763588337,
-      1159283697
+      1159283697,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1742832975,
+    "wof:lastmodified": 1742834339,
     "wof:name": "UA1840 (MCI-SFO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",
