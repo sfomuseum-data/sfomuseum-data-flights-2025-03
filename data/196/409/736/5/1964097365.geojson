@@ -2,10 +2,12 @@
   "id": 1964097365,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-24",
+    "date:cessation_upper": "2025-03-24",
     "date:inception_lower": "2025-03-24",
     "date:inception_upper": "2025-03-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-24",
+    "edtf:cessation": "2025-03-24T18:59:32Z",
+    "edtf:inception": "2025-03-24T08:45:12Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "OZ",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 2.1453445,
     "iata:airline": "OZ",
     "iata:base_airline": "",
+    "icao:aircraft": "A359",
     "icao:airline": "AAR",
     "icao:base_airline": "THA",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159283917,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250324-A-THA-6702",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "HL8078",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95575914"
+    },
     "wof:country": "US",
     "wof:created": 1742918839,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964097365,
     "wof:involves": [
+      1377564293,
       102527513,
       102556451,
       1159283917,
       1947304153,
       1159285639
     ],
-    "wof:lastmodified": 1742918839,
+    "wof:lastmodified": 1742920905,
     "wof:name": "OZ216 (ICN-SFO)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1964104455,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-24",
+    "date:cessation_upper": "2025-03-24",
     "date:inception_lower": "2025-03-24",
     "date:inception_upper": "2025-03-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-24",
+    "edtf:cessation": "2025-03-24T11:34:30Z",
+    "edtf:inception": "2025-03-24T06:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95574432"
+    },
     "wof:country": "US",
     "wof:created": 1742920638,
     "wof:geomhash": "eed3ad030b4c80153105b635669626b5",
@@ -94,7 +99,7 @@
       1947304517,
       1159283697
     ],
-    "wof:lastmodified": 1742920638,
+    "wof:lastmodified": 1742920945,
     "wof:name": "UA1267 (SFO-TPA)",
     "wof:parent_id": 1947304517,
     "wof:placetype": "custom",
