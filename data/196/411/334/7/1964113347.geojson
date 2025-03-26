@@ -2,10 +2,12 @@
   "id": 1964113347,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-26",
+    "date:cessation_upper": "2025-03-26",
     "date:inception_lower": "2025-03-25",
     "date:inception_upper": "2025-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-25",
+    "edtf:cessation": "2025-03-26T01:54:00Z",
+    "edtf:inception": "2025-03-25T10:26:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20250325-D-AFR-2983",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N323DU",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO84661300"
+    },
     "wof:country": "US",
     "wof:created": 1743006388,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -92,9 +105,10 @@
       102527513,
       1159284261,
       1947304675,
-      1159283627
+      1159283627,
+      1813375783
     ],
-    "wof:lastmodified": 1743006388,
+    "wof:lastmodified": 1743007008,
     "wof:name": "DL1088 (SFO-SLC)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",
