@@ -2,10 +2,12 @@
   "id": 1964119703,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-26",
+    "date:cessation_upper": "2025-03-26",
     "date:inception_lower": "2025-03-26",
     "date:inception_upper": "2025-03-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-26",
+    "edtf:cessation": "2025-03-26T19:39:00Z",
+    "edtf:inception": "2025-03-26T18:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95860352"
+    },
     "wof:country": "US",
     "wof:created": 1743092266,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
@@ -94,7 +99,7 @@
       1947304147,
       1159283917
     ],
-    "wof:lastmodified": 1743092266,
+    "wof:lastmodified": 1743093433,
     "wof:name": "UA892 (ICN-SFO)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",

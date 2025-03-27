@@ -2,10 +2,12 @@
   "id": 1964121773,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-26",
+    "date:cessation_upper": "2025-03-26",
     "date:inception_lower": "2025-03-26",
     "date:inception_upper": "2025-03-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-26",
+    "edtf:cessation": "2025-03-26T23:14:00Z",
+    "edtf:inception": "2025-03-26T19:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20250326-D-KLM-6425",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N178DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95800125",
+      "swim:gufi": "KO65281400"
+    },
     "wof:country": "US",
     "wof:created": 1743092785,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964121773,
     "wof:involves": [
+      1159289965,
       102526927,
       102527513,
       1159284261,
       1947304681,
       1159284613
     ],
-    "wof:lastmodified": 1743092785,
+    "wof:lastmodified": 1743093411,
     "wof:name": "DL1556 (SFO-ATL)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",

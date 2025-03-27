@@ -2,10 +2,12 @@
   "id": 1964119093,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-26",
+    "date:cessation_upper": "2025-03-26",
     "date:inception_lower": "2025-03-26",
     "date:inception_upper": "2025-03-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-26",
+    "edtf:cessation": "2025-03-26T04:03:36-07:00",
+    "edtf:inception": "2025-03-26T12:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250326-A-CCA-7222",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N29124",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95759984",
+      "swim:gufi": "KB31371400"
+    },
     "wof:country": "US",
     "wof:created": 1743092112,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964119093,
     "wof:involves": [
+      1159283605,
+      1159289939,
       102527513,
       102530741,
       1159285413,
-      1947304491,
-      1159283605
+      1947304491
     ],
-    "wof:lastmodified": 1743092112,
+    "wof:lastmodified": 1743093424,
     "wof:name": "UA1008 (BOS-SFO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

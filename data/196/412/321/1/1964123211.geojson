@@ -2,10 +2,12 @@
   "id": 1964123211,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-27",
+    "date:cessation_upper": "2025-03-27",
     "date:inception_lower": "2025-03-26",
     "date:inception_upper": "2025-03-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-26",
+    "edtf:cessation": "2025-03-27T00:02:00Z",
+    "edtf:inception": "2025-03-26T08:00:43-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:base_flight_id": "20250326-D-ANA-7320",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N47275",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95815054",
+      "swim:gufi": "KO63590400"
+    },
     "wof:country": "US",
     "wof:created": 1743093145,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964123211,
     "wof:involves": [
+      1159283875,
+      1528104575,
       102531189,
       102527513,
       1159285413,
-      1947304617,
-      1159283875
+      1947304617
     ],
-    "wof:lastmodified": 1743093145,
+    "wof:lastmodified": 1743093427,
     "wof:name": "UA1691 (SFO-DEN)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",
