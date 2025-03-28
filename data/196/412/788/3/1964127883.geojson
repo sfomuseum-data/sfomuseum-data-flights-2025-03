@@ -1,0 +1,72 @@
+{
+  "id": 1964127883,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-03-27",
+    "date:inception_upper": "2025-03-27",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-03-27",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-03-27",
+    "flysfo:estimated_timestamp": 1743099660,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA3900",
+    "flysfo:gate": "",
+    "flysfo:journey": "GUM-SFO",
+    "flysfo:scheduled_timestamp": 1743081660,
+    "flysfo:timestamp": 1743099660,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,13.483889,144.797222,37.617990",
+    "geom:latitude": 25.5509395,
+    "geom:longitude": 11.213139500000004,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102535777,
+    "sfomuseum:flight_id": "20250327-A-UAL-3900",
+    "sfomuseum:flight_number": [
+      "UAL3900",
+      "UA3900"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1743178680,
+    "wof:geomhash": "cfb34c2f58cdf1c02ffeb00ec136aa4c",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964127883,
+        "flight_id": 1964127883
+      }
+    ],
+    "wof:id": 1964127883,
+    "wof:involves": [
+      102527513,
+      102535777,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1743178680,
+    "wof:name": "UA3900 (GUM-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-03",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    13.483889,
+    144.797222,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[144.797222,13.483889],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
