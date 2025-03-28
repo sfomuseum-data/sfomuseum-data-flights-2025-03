@@ -2,10 +2,12 @@
   "id": 1964131989,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-28",
+    "date:cessation_upper": "2025-03-28",
     "date:inception_lower": "2025-03-27",
     "date:inception_upper": "2025-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-27",
+    "edtf:cessation": "2025-03-28T01:01:04Z",
+    "edtf:inception": "2025-03-27T10:09:27-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20250327-D-CCA-7318",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N874UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95926190",
+      "swim:gufi": "KO79596500"
+    },
     "wof:country": "US",
     "wof:created": 1743179771,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964131989,
     "wof:involves": [
-      102533795,
-      102527513,
       1159285413,
       1947304609,
-      1159283605
+      1159283605,
+      1159289407,
+      102533795,
+      102527513
     ],
-    "wof:lastmodified": 1743179771,
+    "wof:lastmodified": 1743180046,
     "wof:name": "UA1754 (SFO-LAX)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1964127887,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-28",
+    "date:cessation_upper": "2025-03-28",
     "date:inception_lower": "2025-03-27",
     "date:inception_upper": "2025-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-27",
+    "edtf:cessation": "2025-03-28T02:38:00Z",
+    "edtf:inception": "2025-03-27T15:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-03-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.9853355,
     "geom:longitude": -55.2970675,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102549067,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "95856761"
+    },
     "wof:country": "US",
     "wof:created": 1743178681,
     "wof:geomhash": "eba9741d16611c9af3d962416d546de7",
@@ -46,12 +56,12 @@
     ],
     "wof:id": 1964127887,
     "wof:involves": [
+      1159289985,
       102527513,
       102549067,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1743178681,
+    "wof:lastmodified": 1743180061,
     "wof:name": "UA3906 (MUC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

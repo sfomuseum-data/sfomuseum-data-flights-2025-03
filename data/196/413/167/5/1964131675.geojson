@@ -2,10 +2,12 @@
   "id": 1964131675,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-03-27",
-    "date:inception_upper": "2025-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-27",
+    "date:cessation_lower": "2025-03-27",
+    "date:cessation_upper": "2025-03-27",
+    "date:inception_lower": "2025-03-28",
+    "date:inception_upper": "2025-03-28",
+    "edtf:cessation": "2025-03-27T13:57:35Z",
+    "edtf:inception": "2025-03-27T22:46:22-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-03-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616987,
     "lbl:longitude": -122.382479,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8884Q",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95859515",
+      "swim:gufi": "KO37548500"
+    },
     "wof:country": "US",
     "wof:created": 1743179692,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -86,9 +100,10 @@
       102527209,
       102527513,
       1159285591,
-      1947304625
+      1947304625,
+      1528104575
     ],
-    "wof:lastmodified": 1743179692,
+    "wof:lastmodified": 1743180043,
     "wof:name": "WN4864 (SFO-LAS)",
     "wof:parent_id": 1947304625,
     "wof:placetype": "custom",
