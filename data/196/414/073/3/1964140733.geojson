@@ -2,10 +2,12 @@
   "id": 1964140733,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-03-28",
-    "date:inception_upper": "2025-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-28",
+    "date:cessation_lower": "2025-03-29",
+    "date:cessation_upper": "2025-03-29",
+    "date:inception_lower": "2025-03-29",
+    "date:inception_upper": "2025-03-29",
+    "edtf:cessation": "2025-03-29T06:11:26Z",
+    "edtf:inception": "2025-03-29T01:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -139.2030015,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532939,
     "sfomuseum:base_flight_id": "20250328-D-ACA-3528",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95927023",
+      "swim:gufi": "KO76660600"
+    },
     "wof:country": "US",
     "wof:created": 1743266017,
     "wof:geomhash": "ffd2c7b34797175c51fc3517b1c4b69d",
@@ -92,9 +103,10 @@
       102527513,
       1159285413,
       1947304453,
-      1159283597
+      1159283597,
+      1528104575
     ],
-    "wof:lastmodified": 1743266017,
+    "wof:lastmodified": 1743266319,
     "wof:name": "UA1247 (SFO-KOA)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",
