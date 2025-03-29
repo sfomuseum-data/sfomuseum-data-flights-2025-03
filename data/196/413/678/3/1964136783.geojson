@@ -1,0 +1,72 @@
+{
+  "id": 1964136783,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-03-28",
+    "date:inception_upper": "2025-03-28",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-03-28",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-03-28",
+    "flysfo:estimated_timestamp": 1743179460,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA3912",
+    "flysfo:gate": "",
+    "flysfo:journey": "IAH-SFO",
+    "flysfo:scheduled_timestamp": 1743179460,
+    "flysfo:timestamp": 1743179460,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,29.977186,-95.338444,37.617990",
+    "geom:latitude": 33.797588,
+    "geom:longitude": -108.8546935,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102534097,
+    "sfomuseum:flight_id": "20250328-A-UAL-3912",
+    "sfomuseum:flight_number": [
+      "UAL3912",
+      "UA3912"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1743265032,
+    "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964136783,
+        "flight_id": 1964136783
+      }
+    ],
+    "wof:id": 1964136783,
+    "wof:involves": [
+      102527513,
+      102534097,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1743265032,
+    "wof:name": "UA3912 (IAH-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-03",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    29.977186,
+    -95.338444,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-95.338444,29.977186],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
