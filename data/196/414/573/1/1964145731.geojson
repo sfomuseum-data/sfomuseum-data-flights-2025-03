@@ -2,10 +2,12 @@
   "id": 1964145731,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-30",
+    "date:cessation_upper": "2025-03-30",
     "date:inception_lower": "2025-03-29",
     "date:inception_upper": "2025-03-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-29",
+    "edtf:cessation": "2025-03-30T01:59:47Z",
+    "edtf:inception": "2025-03-29T11:10:04-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20250329-D-BAW-6507",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N302SS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO85517701"
+    },
     "wof:country": "US",
     "wof:created": 1743351555,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -92,9 +105,10 @@
       102527513,
       1159283849,
       1947304277,
-      1159284021
+      1159284021,
+      1528104575
     ],
-    "wof:lastmodified": 1743351555,
+    "wof:lastmodified": 1743352551,
     "wof:name": "AA3217 (SFO-LAX)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",

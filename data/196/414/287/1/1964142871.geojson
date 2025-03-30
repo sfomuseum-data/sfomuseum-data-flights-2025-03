@@ -2,10 +2,12 @@
   "id": 1964142871,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-03-29",
-    "date:inception_upper": "2025-03-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-29",
+    "date:cessation_lower": "2025-03-30",
+    "date:cessation_upper": "2025-03-30",
+    "date:inception_lower": "2025-03-30",
+    "date:inception_upper": "2025-03-30",
+    "edtf:cessation": "2025-03-30T04:51:51Z",
+    "edtf:inception": "2025-03-30T03:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250329-A-AAL-9410",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N296AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96039349",
+      "swim:gufi": "KS07154101"
+    },
     "wof:country": "US",
     "wof:created": 1743350841,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964142871,
     "wof:involves": [
+      1947304297,
+      1159283849,
+      1377564285,
       102527513,
       102533269,
-      1159283813,
-      1947304297,
-      1159283849
+      1159283813
     ],
-    "wof:lastmodified": 1743350841,
+    "wof:lastmodified": 1743352547,
     "wof:name": "AS1016 (SEA-SFO)",
     "wof:parent_id": 1947304297,
     "wof:placetype": "custom",

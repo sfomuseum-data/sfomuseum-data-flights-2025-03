@@ -2,10 +2,12 @@
   "id": 1964144537,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-30",
+    "date:cessation_upper": "2025-03-30",
     "date:inception_lower": "2025-03-29",
     "date:inception_upper": "2025-03-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-29",
+    "edtf:cessation": "2025-03-30T00:00:16Z",
+    "edtf:inception": "2025-03-29T12:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "LX",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -56.9056255,
     "iata:airline": "LX",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "SWR",
     "icao:base_airline": "UAL",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159286475,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250329-A-UAL-9728",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "HBJNH",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96058111"
+    },
     "wof:country": "US",
     "wof:created": 1743351257,
     "wof:geomhash": "59c1b41e582a5fde12da38b49a2c462f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964144537,
     "wof:involves": [
-      102527513,
       102553957,
       1159286475,
       1947304157,
-      1159285413
+      1159285413,
+      1159289993,
+      102527513
     ],
-    "wof:lastmodified": 1743351257,
+    "wof:lastmodified": 1743352531,
     "wof:name": "LX2618 (ZRH-SFO)",
     "wof:parent_id": 1947304157,
     "wof:placetype": "custom",
