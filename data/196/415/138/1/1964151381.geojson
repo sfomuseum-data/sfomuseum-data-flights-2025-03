@@ -2,10 +2,12 @@
   "id": 1964151381,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-30",
+    "date:cessation_upper": "2025-03-30",
     "date:inception_lower": "2025-03-30",
     "date:inception_upper": "2025-03-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-30",
+    "edtf:cessation": "2025-03-30T10:23:43-07:00",
+    "edtf:inception": "2025-03-30T22:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250330-A-AMX-4737",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N338NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96186362",
+      "swim:gufi": "KU73561101"
+    },
     "wof:country": "US",
     "wof:created": 1743437451,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964151381,
     "wof:involves": [
+      1947304675,
+      1159283539,
+      1159289407,
       102527513,
       102527363,
-      1159284261,
-      1947304675,
-      1159283539
+      1159284261
     ],
-    "wof:lastmodified": 1743437451,
+    "wof:lastmodified": 1743439288,
     "wof:name": "DL1088 (SLC-SFO)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

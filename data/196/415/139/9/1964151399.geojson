@@ -2,10 +2,12 @@
   "id": 1964151399,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-03-30",
-    "date:inception_upper": "2025-03-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-30",
+    "date:cessation_lower": "2025-03-31",
+    "date:cessation_upper": "2025-03-31",
+    "date:inception_lower": "2025-03-31",
+    "date:inception_upper": "2025-03-31",
+    "edtf:cessation": "2025-03-30T19:04:31-07:00",
+    "edtf:inception": "2025-03-31T05:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "icao:base_airline": "VIR",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250330-A-VIR-4904",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N337DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KP04561200"
+    },
     "wof:country": "US",
     "wof:created": 1743437455,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -92,9 +105,10 @@
       102531131,
       1159284261,
       1947304671,
-      1159285483
+      1159285483,
+      1159289411
     ],
-    "wof:lastmodified": 1743437455,
+    "wof:lastmodified": 1743439288,
     "wof:name": "DL2089 (MSP-SFO)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",
