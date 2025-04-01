@@ -2,10 +2,12 @@
   "id": 1964164173,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-31",
+    "date:cessation_upper": "2025-03-31",
     "date:inception_lower": "2025-03-31",
     "date:inception_upper": "2025-03-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-31",
+    "edtf:cessation": "2025-03-31T15:17:54Z",
+    "edtf:inception": "2025-03-31T14:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:base_flight_id": "20250331-D-AAL-7629",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N725AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96231434",
+      "swim:gufi": "KO46639200"
+    },
     "wof:country": "US",
     "wof:created": 1743524812,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964164173,
     "wof:involves": [
+      1159283849,
+      1528104577,
       102527209,
       102527513,
       1159283813,
-      1947304263,
-      1159283849
+      1947304263
     ],
-    "wof:lastmodified": 1743524812,
+    "wof:lastmodified": 1743525846,
     "wof:name": "AS720 (SFO-LAS)",
     "wof:parent_id": 1947304263,
     "wof:placetype": "custom",

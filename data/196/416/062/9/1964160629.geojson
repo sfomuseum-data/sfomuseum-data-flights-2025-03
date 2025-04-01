@@ -2,10 +2,12 @@
   "id": 1964160629,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-03-31",
+    "date:cessation_upper": "2025-03-31",
     "date:inception_lower": "2025-03-31",
     "date:inception_upper": "2025-03-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-03-31",
+    "edtf:cessation": "2025-03-31T17:25:48Z",
+    "edtf:inception": "2025-03-31T16:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2025-03-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "F9",
+    "icao:aircraft": "A320",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533575,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N238FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96237907",
+      "swim:gufi": "KL52157200"
+    },
     "wof:country": "US",
     "wof:created": 1743523939,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1964160629,
     "wof:involves": [
+      1159292085,
       102527513,
       102533575,
       1159284401,
       1947304095
     ],
-    "wof:lastmodified": 1743523939,
+    "wof:lastmodified": 1743525830,
     "wof:name": "F92677 (ONT-SFO)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",
